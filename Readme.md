@@ -63,9 +63,61 @@ Underfitting happens when the model does not learn enough from the data. Underfi
 
 
 
+## Bias - Variance Tradeoff
+
+**Bias** is the difference between the average prediction of the model and the correct value which we are trying to predict.
+
+![image](https://user-images.githubusercontent.com/64080063/128454991-c06581ee-dbff-4653-bc13-95427f19f12b.png)
 
 
 
+**Variance** is the amount that the estimate of the target function will change if different training data was used.
+
+
+
+**Underfitting** :  High Bias & Low Variance
+
+**Overfitting** : Low Bias & High Variance
+
+**Bias-Variance Tradeoff** : 
+
+![image](https://user-images.githubusercontent.com/64080063/128455459-2f2b39f7-f60f-4ef6-8998-f7b0560bd850.png)
+
+​					
+
+**Techniques to have better Bias-Variance Tradeoff**
+
+* Good Model Selection
+* Regularization ( Reducing value of coeffiients)
+* Dimensionality Reduction
+* Ensemble method ( multiple models together )
+
+
+
+## Loss Function
+
+Loss Function measures how far an estimated value is from its true value. It is helpful to determine which model performs better & which parameters are better. 
+
+![image](https://user-images.githubusercontent.com/64080063/128456030-3c02feb4-7344-4179-9a8a-334c6bba1cb9.png)
+
+**Types** : 
+
+* Cross Entropy
+* Squared Error
+* KL Divergence
+
+
+
+Low Loss value == High Accuracy
+
+
+
+## Evaluation Matrics
+
+How well our model performs
+
+* **Accuracy Score** : ratio of number of correct predictions to the total number of input data points 
+* **Mean Squared Error** : the average squared difference between the estimated values and the actual value
 
 
 
