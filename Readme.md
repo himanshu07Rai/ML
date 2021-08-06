@@ -1,3 +1,80 @@
+## Machine Learning Model
+
+A Machine learning model is a function that tries to find the relationship between the **Features **and the **Target variable**.
+
+It tries to find pattern in the data, understand the data and trains on the data. Based on this learning, a Machine Learning Model makes **Predictions **an recognize patterns
+
+### Supervised Learning : 
+
+Model learns from labelled data
+
+![image](https://user-images.githubusercontent.com/64080063/127961106-de1d826d-ac96-4470-b76a-1ccd45aec30f.png)
+
+
+
+### Unsupervised Learning:
+
+Model learns from unlabelled data
+
+![image](https://user-images.githubusercontent.com/64080063/127961403-5bb7087a-501f-4a16-b81b-534a1c06b2ad.png)
+
+
+
+## Overfitting
+
+Overfitting refers to a model that models the training data too well. Overfitting happens when a model learns the details and noise in the training dataset to the extent that it negatively impacts the performance of the model.
+
+**Sign **: High raining data accuracy and very low test data accuracy
+
+**Cause** :
+
+* Less data
+* Increased Complexity of the model
+* More number of layers in Neural Network
+
+**Preventing Overfitting** :
+
+* Using more data
+* Reduce number of layers in Neural Network
+* Use Dropout Layers
+* Early Stopping
+* Bias - Variance Tradeoff
+
+
+
+## Underfitting
+
+Underfitting happens when the model does not learn enough from the data. Underfitting occurs when a machine learning model cannot capture the underlying trend of the data.
+
+**Sign** : Very low training data accuracy
+
+**Causes** :
+
+* Choosing a wrong model
+* Less complexity of the model
+* Less variance but high bias
+
+**Preventing Underfitting** : 
+
+* Choosing correct model
+* Increasing the complexity of the model
+* Mode number of parameters to the model
+* Bias - Variance Tradeoff
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Artificial Neural Networks
 
 Because the signal just goes from lest to right, we call it a **feedforward** neural network.
@@ -47,14 +124,15 @@ Mimicking human brain.
 Take in input .Train themselves to understand patterns in the data.Output predictions
 
 **Input layer -------------Several Hidden layers ---------------Output layer**
+
 A neural network receives input , converts the input signal by changing the state using an activation function to produce an output.
 Activation function introduces non-linearity in the network.
 
 A neural network will have : 
 Input layer with the bias unit, which is 1, It is also referred as the interceptOne or more hidden layers .Each with a bias unit.Output layer .Weights associated with each connection.Activation function which converts an input signal of a note to an output signal.
 
-
 **Weights** 
+
 Weights are how, neural networks learn. We adjust the weights to determine the strength of the signal.We randomly initialize the weights (w) and multiply them with the input (x).
 This is forward propagation.
 We add the bias of the layer to it and then apply the activation function on it.
